@@ -1,0 +1,270 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+/* navbar */
+.nav-item {
+  margin-right: 2rem;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 14px;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: rgb(97, 97, 97) !important;
+}
+
+/* home */
+#home {
+  height: 700px;
+}
+
+#home img {
+  margin-top: 1rem;
+}
+
+.home-jumbotron {
+  margin-top: 35%;
+}
+
+.home-title {
+  font-size: 88px;
+  font-weight: 600;
+  color: #444;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.home-title span {
+  color: #57a7f1;
+}
+
+.home-text {
+  font-weight: 300;
+  font-size: 36px;
+  color: #444;
+  margin-top: 1rem;
+}
+
+.home-icon {
+  color: #d4d4d4;
+  font-size: 40px;
+  margin-right: 50px;
+  margin-top: 0.5rem;
+}
+
+.home-icon:hover {
+  color: black;
+  transition: 1s;
+}
+
+/* about */
+
+#about {
+  background-color: #57a7f1;
+  height: 700px;
+}
+
+.about-title {
+  font-weight: 600;
+  font-size: 36px;
+  padding-top: 9rem;
+}
+
+.about-text {
+  padding-bottom: 16.5rem;
+  margin-top: 6rem;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+/* skill */
+#skill {
+  height: 700px;
+}
+
+.skill-title {
+  font-weight: 600;
+  font-size: 36px;
+  padding-top: 5rem;
+}
+
+#skill .skill-row {
+  padding-top: 5rem;
+  position: relative;
+}
+
+#skill .skill-brands {
+  padding-bottom: 10rem;
+}
+
+.skill-icon .skill-name {
+  position: relative;
+  transform: translateY(350%);
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+}
+
+.skill-icon .skill-name {
+  opacity: 0;
+}
+
+.skill-icon:hover .skill-name {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/* Certificate */
+#certificate {
+  background-color: #57a7f1;
+  margin-top: 7rem;
+}
+
+.certificate-title {
+  padding-top: 2rem;
+}
+
+#certificate-carousel {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Projects */
+
+#project {
+  height: 700px;
+}
+
+#project a {
+  text-decoration: none;
+}
+
+.project-title {
+  font-weight: 600;
+  font-size: 36px;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.project-item {
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+}
+
+.item-1 {
+  background-image: url(./asset/project/web-arcithect.png);
+}
+
+.item-2 {
+  background-image: url(./asset/project/auth-axios.png);
+}
+
+.project-text {
+  display: block;
+  background-color: rgba(0, 0, 0, 50%);
+  opacity: 0;
+  transform: translateY(313%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-text p {
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.project-text img {
+  margin-right: 1rem;
+}
+
+.project-item {
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.project-item:hover {
+  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+}
+
+.project-item:hover .project-text {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+/* Contact */
+#contact {
+  background-color: #57a7f1;
+}
+
+.contact-title {
+  font-weight: 600;
+  font-size: 36px;
+  padding-top: 6rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.contact-inner {
+  padding-bottom: 5rem;
+}
+
+.contact-desc {
+  display: flex;
+  margin: 3rem 0;
+}
+
+.contact-desc i {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+}
+
+.contact-desc p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: auto 2rem;
+}
+
+.form-floating {
+  margin: 1rem;
+}
+
+.form-floating input,
+.form-floating textarea {
+  background-color: transparent;
+  color: white;
+}
+
+.form-floating input:focus,
+.form-floating textarea:focus {
+  box-shadow: none;
+  background-color: transparent;
+  color: white;
+}
+
+.form-floating input:-webkit-autofill,
+.form-floating input:-webkit-autofill:hover,
+.form-floating input:-webkit-autofill:focus,
+.form-floating input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.btn-contact {
+  color: #57a7f1 !important;
+  background-color: white !important;
+  width: 125px;
+  float: right;
+  margin-right: 1rem;
+}
