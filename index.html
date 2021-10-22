@@ -83,22 +83,32 @@
             <div class="mx-auto home-jumbotron">
               <h1 class="home-title">Hi! Aku <span>Doni</span></h1>
               <p class="home-text">Doni Ahmad Darmawan</p>
-              <div class="d-flex">
-                <a href="https://github.com/doniahmad" target="_blank">
+              <div class="row">
+                <a
+                  href="https://github.com/doniahmad"
+                  target="_blank"
+                  class="col-3"
+                >
                   <i class="fab fa-github home-icon"></i>
                 </a>
                 <a
                   href="https://www.facebook.com/doniahmaddarmawan"
                   target="_blank"
+                  class="col-3"
                 >
                   <i class="fab fa-facebook home-icon"></i>
                 </a>
-                <a href="https://twitter.com/doniahmad_51" target="_blank">
+                <a
+                  href="https://twitter.com/doniahmad_51"
+                  target="_blank"
+                  class="col-3"
+                >
                   <i class="fab fa-twitter home-icon"></i>
                 </a>
                 <a
                   href="https://www.instagram.com/doniahmad_51"
                   target="_blank"
+                  class="col-3"
                 >
                   <i class="fab fa-instagram home-icon"></i>
                 </a>
@@ -129,25 +139,25 @@
         <h1 class="skill-title">My Skills</h1>
         <div class="skill-brands">
           <div class="row skill-row">
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="skill-icon">
                 <p class="skill-name">HTML</p>
                 <img src="./asset/skill/html.png" />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="skill-icon">
                 <p class="skill-name">CSS</p>
                 <img src="./asset/skill/css.png" />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="skill-icon">
                 <p class="skill-name">JavaScript</p>
                 <img src="./asset/skill/js.png" />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="skill-icon">
                 <p class="skill-name">PHP</p>
                 <img src="./asset/skill/php.png" />
@@ -155,25 +165,25 @@
             </div>
           </div>
           <div class="row skill-row">
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="skill-icon">
                 <p class="skill-name">React JS</p>
                 <img src="./asset/skill/react.png" style="margin-top: 1rem" />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="skill-icon">
                 <p class="skill-name">Java</p>
                 <img src="./asset/skill/java.png" style="margin-top: -20px" />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="skill-icon">
                 <p class="skill-name">Bootstrap</p>
                 <img src="./asset/skill/bootstrap.png" />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
               <div class="skill-icon">
                 <p class="skill-name">Styled-Component</p>
                 <img src="./asset/skill/styled-component.png" />
@@ -240,7 +250,7 @@
       <div class="container text-center">
         <h1 class="project-title">Projects</h1>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <a
               href="https://doniahmad.github.io/web-arcithect/"
               target="_blank"
@@ -253,7 +263,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <a
               href="https://github.com/doniahmad/JWTauth-axios-react"
               target="_blank"
@@ -276,7 +286,7 @@
         <h1 class="contact-title">Contact Me</h1>
         <div class="contact-inner">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6 num-1">
               <div class="contact-map contact-desc">
                 <i class="far fa-map"></i>
                 <p>Kab. Kudus, Kec. Bae, Karangbener RT.05 RW.07</p>
@@ -290,9 +300,9 @@
                 <p>doniahmaddarmawan@gmail.com</p>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 num-2">
               <form
-                method="post"
+                method="POST"
                 action="https://formsubmit.co/doniahmaddarmawan@gmail.com"
               >
                 <div class="form-floating">
@@ -329,7 +339,11 @@
                   <label for="floatingtextarea">Comments</label>
                 </div>
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="false" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://doniahmad.github.io/"
+                />
                 <input
                   type="hidden"
                   name="_subject"
