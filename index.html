@@ -299,6 +299,7 @@
                   <input
                     type="text"
                     class="form-control"
+                    name="name"
                     id="floatingName"
                     placeholder="name"
                     required
@@ -321,12 +322,14 @@
                     class="form-control"
                     placeholder="Leave a comment here"
                     id="floatingtextarea"
+                    name="subject"
                     style="height: 150px"
                     required
                   ></textarea>
                   <label for="floatingtextarea">Comments</label>
                 </div>
                 <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="false" />
                 <input
                   type="hidden"
                   name="_subject"

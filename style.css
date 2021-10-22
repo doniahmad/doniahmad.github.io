@@ -259,6 +259,7 @@
 .form-floating input:-webkit-autofill:focus,
 .form-floating input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: white;
 }
 
 .btn-contact {
