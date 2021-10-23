@@ -264,11 +264,17 @@ body {
   transition: 0.5s ease;
 }
 
+@media screen and (max-width: 576px) {
+  .project-item {
+    height: 250px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .project-item {
     margin: auto;
     margin-top: 2rem;
-    height: 350px;
+    height: 250px;
     width: 75%;
   }
 
