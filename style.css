@@ -38,6 +38,10 @@ body {
 }
 
 /* home */
+#home {
+  height: 700px;
+}
+
 #home img {
   margin-top: 1rem;
 }
@@ -76,27 +80,9 @@ body {
   transition: 1s;
 }
 
-@media screen and (max-width: 576px) {
-  #home img {
-    width: 100vh;
-  }
-
-  .home-icon {
-    margin: auto;
-    margin-top: 1rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  #home {
-    height: 719px;
-  }
-
   #home img {
-    width: 100vh;
     position: absolute;
-    margin-top: 0px;
-    margin-bottom: 0px;
     left: 50%;
     right: 50%;
     transform: translateX(-50%);
@@ -129,7 +115,6 @@ body {
 
 #about {
   background-color: #57a7f1;
-  margin-top: 0;
 }
 
 .about-title {
