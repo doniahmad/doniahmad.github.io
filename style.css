@@ -207,7 +207,11 @@ body {
 }
 
 #project .row {
-  padding-bottom: 12rem;
+  padding-bottom: 6rem;
+}
+
+.project-contain {
+  padding-bottom: 7rem;
 }
 
 .project-title {
@@ -229,6 +233,27 @@ body {
 
 .item-2 {
   background-image: url(./asset/project/auth-axios.png);
+}
+
+.item-3 {
+  background-image: url(./asset/project/getapi.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.item-4 {
+  background-image: url(./asset/project/favoriteclub.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.item-5 {
+  background-image: url(./asset/project/absensiapp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .project-text {
